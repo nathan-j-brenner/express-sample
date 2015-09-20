@@ -21,4 +21,4 @@ software development: more iterative than linear
 nodemon: a utility that will monitor for any changes in your source and automatically restart your server. Perfect for development.  
 to start: nodemon src/app
 
-node-inspector: interactively debugging node processes, lets you debug node apps in the browser
+node-inspector: interactively debugging node processes, lets you debug node apps in the browser, to run: node-debug src/app.js

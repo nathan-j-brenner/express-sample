@@ -19,7 +19,7 @@ app.get('/', function(req, res){ //req = request, res = response
 	res.send('<h1>I am loving this course</h1'); // when the server is started, see localhost:3000 to see this html
 	//first parameter: location parameter
 });
-
+debugger;
 app.get('/blog', function(req, res){
 	res.send(posts);});
 
