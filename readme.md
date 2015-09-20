@@ -38,4 +38,4 @@ popular templating languages for javascript: handlebars, ejs (embedded javascrip
 templates are stored on the server
 jade uses block syntax: jade thinks the indented tag should be within the tag above it. If you indent, then you don't have to write in the closing tag.
 add classes with dot syntax or inside parenthesis
-to add to project: npm install jade --save
+to add to project: npm install jade --save, then mkdir src/templates
