@@ -14,4 +14,11 @@ HTTP Status Codes (e.g. 404 - Page not found): https://en.wikipedia.org/wiki/Lis
 
 routes: tell the server what to do when a user visits a different url
 
-nodemon: a utility that will monitor for any changes in your source and automatically restart your server. Perfect for development.
+software development: more iterative than linear
+	linear would mean that you know what you want to write, so you sit down and write it all out
+	iterative means you know what you want to accomplish, but you don't know how to accomplish every aspect of it yet
+
+nodemon: a utility that will monitor for any changes in your source and automatically restart your server. Perfect for development.  
+to start: nodemon src/app
+
+node-inspector: interactively debugging node processes, lets you debug node apps in the browser

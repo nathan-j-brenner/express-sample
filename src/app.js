@@ -16,7 +16,7 @@ the client: the device that's used to visit the website, like the web browser
 if you make any changes on the server side code, to see those changes, you have to restart the server (type  ctrl + c in terminal)
 */
 app.get('/', function(req, res){ //req = request, res = response
-	res.send('<h1>get request</h1'); // when the server is started, see localhost:3000 to see this html
+	res.send('<h1>I am loving this course</h1'); // when the server is started, see localhost:3000 to see this html
 	//first parameter: location parameter
 });
 
