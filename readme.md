@@ -22,3 +22,13 @@ nodemon: a utility that will monitor for any changes in your source and automati
 to start: nodemon src/app
 
 node-inspector: interactively debugging node processes, lets you debug node apps in the browser, to run: node-debug src/app.js
+
+to use both tools together: use nodemon to run server, and node inspector to run a debugger
+	to use: node-inspector, then in a separate terminal tab, run nodemon --debug src/app.js, or without nodemon, run node --debug src/app.js
+	another way to set a breakpoint is to add 'debugger' in your code, but type nodemon --debug-brk src/app.js, this tells server to break on first line no matter what
+
+req object:
+.hostname: name of the url where the server is running
+.url
+.route
+.method
