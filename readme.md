@@ -12,4 +12,6 @@ The listen method: http://expressjs.com/4x/api.html#app.listen
 The get method: http://expressjs.com/4x/api.html#app.get.method
 HTTP Status Codes (e.g. 404 - Page not found): https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
+routes: tell the server what to do when a user visits a different url
+
 nodemon: a utility that will monitor for any changes in your source and automatically restart your server. Perfect for development.
