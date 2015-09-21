@@ -39,3 +39,22 @@ templates are stored on the server
 jade uses block syntax: jade thinks the indented tag should be within the tag above it. If you indent, then you don't have to write in the closing tag.
 add classes with dot syntax or inside parenthesis
 to add to project: npm install jade --save, then mkdir src/templates
+
+try to keep a single file at no more than 150 lines when working in development so that they're easy to maintain
+
+block content: tells jade that any more content is injected here
+extends filename: inject other code from another template
+partials: used to include parts of a page accross multiple pages, start name of those files with underscore
+
+middleware: the logic that tells express how to handle a request in between the time a request is made by the client but before it arrives at the route
+app.use() for authentication
+
+npm install express-generator -g
+express app_name, cd into app_name, npm install to download dependencies, then npm start to fire up the server
+
+
+How to turn url’s into “GET” query’s: https://teamtreehouse.com/library/ajax-basics/ajax-concepts/get-and-post
+The most popular node client for Mongodb: http://mongoosejs.com/
+The MEAN Stack Generator: http://mean.io/#!/
+A popular node client for PostgreSQL: https://github.com/brianc/node-postgres
+A popular node client for MySQL: https://github.com/felixge/node-mysql/
