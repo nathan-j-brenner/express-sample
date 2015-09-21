@@ -38,8 +38,9 @@ app.get('/blog/:title?', function(req, res){ //the ? tells express that the para
 		res.status(503); //search engines are refurred to as bots sometimes also see this status code
 		res.send("This page is under construction");
 	} else{
-		var post = posts[title];
-		res.send(post);
+		var post = posts[title] || {};
+		// res.send(post);
+		res.render('post', {post: post});
 	}
 });
 
